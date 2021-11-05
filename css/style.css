@@ -1,37 +1,41 @@
-*{
+/* GLOBAL */
+
+* {
     box-sizing: border-box;
 }
 
-*:focus{
-    outline: 2px dotted #DE2E54;
-    outline-offset: 5px;
-}
-
-body{
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Open Sans Condensed', sans-serif;
-    padding: 0;
+body {
     margin: 0;
+    padding: 0;
+    font-family: "Open Sans, 'Arial' sans-serif";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
 }
 
 /* CONTAINER */
 
-.container{
+.container {
     max-width: 1100px;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
     padding-left: 30px;
-    padding-right: 30px;    
+    padding-right: 30px;
 }
 
+/* Open sans 400 600 700 */
+/* Open Sans codensed */
+
 /* HEADER */
-.site-header{
+
+.site-header {
     padding-top: 24px;
     padding-bottom: 24px;
 }
 
-.site-header-container{
+
+.site-header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -41,47 +45,46 @@ body{
     text-decoration: none;
     display: flex;
     align-items: center;
-    margin-left: -70px;
 }
 
-.site-logo-img{
-    border-radius: 50%;
+.site-logo:hover {
+    color: #de2e54;
+}
+
+.site-logo:active {
+    opacity: 0.6;
+}
+
+.site-footer-text:active {
+    color: #fff;
+    opacity: 0.6;
+}
+
+.site-logo-img {
+    border-radius:50% ;
     margin-right: 16px;
 }
 
-.site-logo-text{
+.site-logo-text {
     font-weight: 600;
-    font-family: 'Open Sans', sans-serif;
     font-size: 24px;
     color: #222;
-
-}
-
-.site-logo-text:hover{
-    color: #DE2E54;
-}
-
-.site-logo-text:active{
-    opacity: 0.6;
 }
 
 /* NAVBAR */
 
-.sitenav-list{
+.sitenav-list {
     display: flex;
-    align-items: center;
     list-style: none;
+    align-items: center;
 }
 
-.sitenav-item:not(:last-child){
+
+.sitenav-item:not(:last-child) {
     margin-right: 32px;
 }
 
-.sitenav-item{
-    font-family: 'Open Sans', sans-serif;
-}
-
-.sitenav-link{
+.sitenav-link {
     text-decoration: none;
     text-transform: uppercase;
     color: #222;
@@ -91,13 +94,76 @@ body{
 }
 
 .sitenav-link:hover{
-    color: #DE2E54;
+    color: #de2e54;
 }
 
-.sitenav-link:active{
+.sitenav-link:active {
     opacity: 0.6;
 }
 
+.sitenav-list-footer , .sitenav-link:hover {
+    color: #de2e54;
+}
+
+.sitenav-list-footer , .sitenav-link:active {
+    color: #fff;
+    opacity: 0.6;
+}
+
+/* MAIN LINK */
+
+.main-link {
+    background-color: #de2e54;
+    padding: 12px 24px;
+    font-family: 'Open Sans Condenced';
+    font-weight: 700;
+    letter-spacing: 2;
+    font-size: 15px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 2px solid #de2e54;
+    border-radius: 8px;
+}
+
+.main-link:hover {
+    background-color: #fff;
+    color: #de2e54;
+}
+
+.main-link:active {
+    background-color: #de2e54;
+    color: #fff;
+    opacity: 0.6;
+}
+
+/* SITE FOOTER */
+
+.site-footer {
+    background-color: #222;
+}
+
+.site-footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-footer-text {
+    font-weight: 600;
+    font-size: 24px;
+    color: #fff;
+
+}
+
+.sitenav-link2 {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
 
 /* MAIN LINK */
 .main-link{
@@ -175,212 +241,4 @@ body{
     opacity: 0.6;
     color: #fff;
     background: #DE2E54;
-}
-
-.xizmat{
-    padding-top: 120px;
-    text-align: center;
-    margin-bottom: 56px;
-    font-size: 36px;
-    width: 1440px;
-}
-
-.service-bg{
-    width: 1440px;
-    height: 1486px;
-}
-
-.bg-hijoma, .bg-terapiya, .bg-zuluk, .bg-tabiy{
-    margin-left: 288px;
-    margin-bottom: 80px;
-}
-
-.bg-hijoma__info{
-    width: 67px;
-    height: 29px;
-}
-
-.bg-terapiya__info{
-    width: 155px;
-    height: 29px;
-}
-
-.bg-zuluk__info{
-    width: 195px;
-    height: 29px;
-}
-
-.bg-tabiy__info{
-    width: 192px;
-    height: 29px;
-}
-
-.hijoma__item{
-    width: 600px;
-    height: 96px;
-}
-
-.terapiya__item{
-    width: 600px;
-    height: 72px;
-}
-
-.zuluk__item{
-    width: 600px;
-    height: 120px;
-}
-
-.tabiy__item{
-    width: 600px;
-    height: 72px;
-}
-
-.button{
-    display: flex;
-    justify-content: center;
-    width: 50%;
-}
-
-.bg-button{
-   width: 189px;
-   height: 47px;
-   font-family: 'Open Sans Condensed', sans-serif;
-   font-size: 15px;
-   border-radius: 8px;
-   background:#DE2E54;
-   color: #fff;
-   border: none;
-   letter-spacing: 2px;
-   margin-top: 98px;
-   margin-bottom: 120px;
-   padding: 12px 24px;
-   border: 2px solid #DE2E54;
-    text-decoration: none;
-}
-
-.bg-button:hover{
-   color: #DE2E54;
-   background: #fff;
-   border: 2px solid #DE2E54;
-}
-
-.bg-button:active{
-   color: #fff;
-   background: #DE2E54;
-   opacity: 0.6;
-}
-
-.bg-option{
-    float: right;
-    margin-right: 250px;
-}
-
-.bg-option p{
-    font-family: 'Open Sans', sans-serif;   
-}
-.footer-before{
-    width: 1540px;
-    max-width: 100%;
-    padding-left: 50px;
-    padding-right: 50px;
-    height: 253px;
-    background: #0EB4C1;
-}
-
-.before-info{
-    color: #fff;
-    padding-top: 64px;
-    text-align: center;
-}
-
-.option{
-    display: flex;
-    justify-content: center;
-    align-items: center;   
-}
-
-.call-link{
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #fff;
-    padding: 12px 24px;
-    border-radius: 8px;
-    border: 2px solid #fff; 
-    margin-right: 30px; 
-    letter-spacing: 1px;
-}
-
-.call-link:hover{
-    color: #fff;
-    background: #DE2E54;
-    border: 2px solid #DE2E54;
-}
-
-.call-link:active{
-    opacity: 0.6;
-}
-
-.telegram-link{
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #fff;
-    border: 2px solid #fff;
-    border-radius: 8px;
-    padding: 12px 24px;
-    margin-left: 30px;
-    letter-spacing: 1px;
-}
-
-.telegram-link:hover{
-    color: #fff;
-    background: #DE2E54;
-    border: 2px solid #DE2E54;
-}
-
-.telegram-link:active{
-    opacity: 0.6;
-}
-
-.service-bg{
-    margin-left: 64px;
-}
-
-/* SITE FOOTER */
-.site-footer{
-    background: #222;
-}
-
-
-.site-footer-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 32px;
-    padding-bottom: 32px;
-}
-
-.site-footer-text{
-    color: #fff;
-}
-
-.site-footer-text:hover{
-    color: #DE2E54;
-}
-
-.site-footer-text:active{
-    color: #fff;
-    opacity: 0.6;
-}
-
-.sitenav-list-footer a{
-    color: #fff;
-}
-
-.sitenav-list-footer a:hover{
-    color: #DE2E54;
-}
-
-.sitenav-list-footer a:active{
-    color: #fff;
-    opacity: 0.6;
 }
