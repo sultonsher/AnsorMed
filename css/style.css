@@ -151,6 +151,8 @@ body {
 
 .site-footer-text {
     color: #fff;
+    font-weight: 600;
+    font-size: 24px;
 }
 
 .sitenav-list-footer , .sitenav-link2 {
