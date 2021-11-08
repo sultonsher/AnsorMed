@@ -71,6 +71,14 @@ body {
     color: #222;
 }
 
+.site-logo-text:hover {
+    color: #de2e54;
+}
+
+.site-logo-text:active {
+    opacity: 0.6;
+}
+
 /* NAVBAR */
 
 .sitenav-list {
@@ -153,7 +161,14 @@ body {
     font-weight: 600;
     font-size: 24px;
     color: #fff;
+}
 
+.site-footer-text:hover {
+    color: #de2e54;
+}
+
+.site-footer-text:active {
+    opacity: 0.6;
 }
 
 .sitenav-link2 {
@@ -164,6 +179,15 @@ body {
     font-size: 14px;
     letter-spacing: 2px;
 }
+
+.sitenav-link2:hover {
+    color: #de2e54;
+}
+
+.sitenav-link2:active {
+    opacity: 0.6;
+}
+
 
 /* MAIN LINK */
 .main-link{
@@ -243,3 +267,198 @@ body {
     background: #DE2E54;
 }
 
+
+.own-section {
+    height: 1124px;
+    width: 1349px;
+}
+
+.main-section {
+    width: 864px;
+    margin-left: 288px;
+    margin-bottom: 120px;
+}
+
+.section-text {
+    font-weight: bold;
+    font-family: 'Open sans condensed';
+    text-align: center;
+    font-size: 18px;
+    color: #000;
+}
+
+.section-1 {
+    width: 600px;
+    height: 149px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    margin-bottom: 100px;
+}
+
+.section-1 img {
+    margin-right: 64px;
+}
+
+.section-1text__info {
+    width: 67px;    
+    height: 29px;
+}
+
+.hijoma__item{
+    width: 600px;
+    height: 96px
+}
+
+.section-2 {
+    width: 600px;
+    height: 149px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    margin-bottom: 100px;
+}
+
+.section-2 img {
+    margin-right: 64px;
+}
+
+.section-2text__info {
+    width: 67px;    
+    height: 29px;
+    display: inline;
+}
+
+.terapiya__item {
+    width: 600px;
+    height: 72px;
+}
+
+.section-3 {
+    width: 600px;
+    height: 149px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    margin-bottom: 100px;
+}
+
+.section-3 img {
+    margin-right: 64px;
+}
+
+.section-3text__info {
+    width: 67px;    
+    height: 29px;
+    display: inline;
+}
+
+.zuluk__item {
+    width: 600px;
+    height: 72px;
+}
+
+.section-4 {
+    width: 600px;
+    height: 149px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    margin-bottom: 100px;
+}
+
+.section-4 img {
+    margin-right: 64px;
+}
+
+.section-4text__info {
+    width: 67px;    
+    height: 29px;
+    display: inline;
+}
+
+.tabiy__item {
+    width: 600px;
+    height: 72px;
+}
+
+.bg-button {
+    background: #DE2E54;
+    padding: 12px 24px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 15px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 8px;
+    border: 2px solid #DE2E54;
+    margin-left: 260px;
+}
+
+.rectangle{
+    width: 1540px;
+    max-width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 253px;
+    background: #0EB4C1;
+}
+
+.before-info{
+    color: #fff;
+    padding-top: 64px;
+    text-align: center;
+}
+
+.QQ{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.call-link{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 8px;
+    border: 2px solid #fff; 
+    margin-right: 30px; 
+    letter-spacing: 1px;
+}
+
+.call-link:hover{
+    color: #fff;
+    background: #DE2E54;
+    border: 2px solid #DE2E54;
+}
+
+.call-link:active{
+    opacity: 0.6;
+}
+
+.telegram-link{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    padding: 12px 24px;
+    margin-left: 30px;
+    letter-spacing: 1px;
+}
+
+.telegram-link:hover{
+    color: #fff;
+    background: #DE2E54;
+    border: 2px solid #DE2E54;
+}
+
+.telegram-link:active{
+    opacity: 0.6;
+}
